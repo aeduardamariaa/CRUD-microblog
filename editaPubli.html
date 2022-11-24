@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar publicação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Editar publicação</h1>
+
+   <form action="editar.php" method="post">
+        <label for="nome">Nome do Usuário</label>
+        <input  class="inputTexto" type="text" name="nome" id="nome" value="{NOME}"  readonly> <br><br>
+        <label for="email">Email</label>
+        <input   class="inputTexto"type="email" name="email" id="email" value="{EMAIL}" readonly> <br><br>
+        <label for="titulo">Título</label>
+        <input  class="inputTexto" type="titulo" name="titulo" id="titulo" value="{TITULO}" > <br><br>
+        <label for="texto">Texto:</label>
+        <input   class="inputTexto"type="texto" name="texto" id="texto" value="{TEXTO}"> <br><br><br>
+        <input class="inputSubmit" type="submit" value="Atualizar"><br><br>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

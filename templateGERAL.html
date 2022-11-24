@@ -1,0 +1,25 @@
+
+<fieldset>
+    <h2 style="color: darkviolet;">{NOME}</h2>
+    <p style="font-size:12px; color:indigo">{EMAIL}</p><br>
+    <p>{TITULO}</p>
+    <p>{TEXTO}</p>
+
+<br>
+
+    <form action="mostraEditaPubli.php" method="post">
+        <input type="hidden" name="nome" value="{NOME}">
+        <input type="hidden" name="email" value="{EMAIL}">
+        <input type="hidden" name="titulo" value="{TITULO}">
+        <input type="hidden" name="texto" value="{TEXTO}">
+        <input class="inputSubmit" type="submit" value="Editar">
+    </form>
+
+    <form action="apaga.php" method="post">
+        <input type="hidden" name="index" value="{INDEX}">
+        <input type="hidden" name="email" value="{EMAIL}">
+        <input class="inputSubmit" type="submit" value="Deletar">
+    </form>
+
+</fieldset>
+<br>

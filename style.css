@@ -1,0 +1,49 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:whitesmoke;
+    padding-left: 100px;
+    padding-right: 100px;
+    word-wrap: break-word;
+}
+.index{
+    background-color: blueviolet;
+    padding: 30px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 100px;
+    color: white;
+}
+.inputSubmit{
+        background-color:black; 
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+}
+.inputSubmit:hover {
+    background-color:darkviolet;
+    color: white;
+}
+.inputTexto{
+    width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid darkviolet;
+      border-radius: 4px;
+      cursor: pointer;
+      word-wrap: break-word;
+}
+fieldset{
+    padding: 25px;
+    word-wrap: break-word;
+}
+

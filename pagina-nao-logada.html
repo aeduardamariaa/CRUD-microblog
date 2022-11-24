@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar nova publicação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastrar nova publicação</h1>
+
+   <form action="naolog.php" method="post">
+        <label for="nome">Nome do Usuário</label>
+        <input class="inputTexto" type="text" name="nome" id="nome" placeholder="Digite o nome" required> <br><br>
+        <label for="email">Email</label>
+        <input  class="inputTexto" type="email" name="email" id="email" placeholder="Digite o email" required> <br><br>
+        <label for="titulo">Título</label>
+        <input   class="inputTexto"type="titulo" name="titulo" id="titulo" placeholder="Digite o título" required> <br><br>
+        <label for="texto">Texto</label>
+        <textarea  class="inputTexto" name="texto" id="texto" placeholder="Digite o texto" required cols="30" rows="10"></textarea> <br><br><br>
+       
+        <input class="inputSubmit" type="submit" value="Publicar"><br><br>
+    
+    </form>
+    <form action="home.php" method="post">
+        <input class="inputSubmit" type="submit" value="Ir para pagina geral">
+    </form>
+    <script src="app.js"></script>
+    <br><br><br>
+</body>
+</html>
